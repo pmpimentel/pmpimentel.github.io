@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Pedro Pimentel
+  </title>
+  <meta content="Pedro Pimentel — dados, BI e desenvolvimento." name="description"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="./style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="progress">
+  </div>
+  <header>
+   <a class="brand" href="#inicio">
+    Pedro Pimentel
+   </a>
+   <nav>
+    <a href="#experiencia">
+     Experiência
+    </a>
+    <a href="#projetos">
+     Projetos
+    </a>
+    <a href="#formacao">
+     Formação
+    </a>
+    <a href="#contato">
+     Contato
+    </a>
+   </nav>
+  </header>
+  <main>
+   <section class="hero" id="inicio">
+    <div class="hero-grid">
+     <div>
+      <span class="eyebrow reveal">
+       CURITIBA · PR
+      </span>
+      <h1>
+       <span>
+        Pedro
+       </span>
+       <span>
+        Pimentel
+       </span>
+      </h1>
+     </div>
+     <div class="hero-card reveal">
+      <span>
+       ÁREAS
+      </span>
+      <strong>
+       Dados, BI &amp; Desenvolvimento
+      </strong>
+      <p>
+       Ciência da Computação · PUCPR
+      </p>
+     </div>
+    </div>
+    <div class="hero-bottom reveal">
+     <p>
+      Estudante de Ciência da Computação na PUCPR, com experiência profissional em dados e BI e projetos em Python, Java e C.
+     </p>
+     <a href="#projetos">
+      Ver projetos ↓
+     </a>
+    </div>
+   </section>
+   <section class="experience section" id="experiencia">
+    <div class="section-label">
+     <h2>
+      Experiência
+     </h2>
+    </div>
+    <div class="exp-grid">
+     <div>
+      <span class="date">
+       OUT 2025 — OUT 2026
+      </span>
+      <h3>
+       GR
+       <br/>
+       Parceria
+      </h3>
+      <p class="place">
+       Analista de BI / Dados · 4h/dia
+      </p>
+     </div>
+     <div class="copy">
+      <p>
+       Atuei no desenvolvimento de dashboards e relatórios em Power BI, criação de indicadores e KPIs com DAX e consultas SQL para extração, validação e tratamento de dados. Também trabalhei com modelagem e estruturação de bases para análises operacionais e logísticas.
+      </p>
+      <div class="tags">
+       <span>
+        Power BI
+       </span>
+       <span>
+        DAX
+       </span>
+       <span>
+        SQL
+       </span>
+       <span>
+        Excel
+       </span>
+       <span>
+        Python
+       </span>
+       <span>
+        Pandas
+       </span>
+       <span>
+        DBeaver
+       </span>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="projects section" id="projetos">
+    <div class="section-label">
+     <h2>
+      Projetos
+     </h2>
+     <p>
+      Todos os projetos públicos do meu GitHub.
+     </p>
+    </div>
+    <div class="filter reveal">
+     <button class="active" data-filter="all">
+      Todos
+     </button>
+     <button data-filter="data">
+      Dados
+     </button>
+     <button data-filter="dev">
+      Desenvolvimento
+     </button>
+    </div>
+    <div class="featured">
+     <a class="card large reveal" data-cat="data" href="https://github.com/pmpimentel/Analise-Combustivel-ANP" target="_blank">
+      <div class="card-top">
+       <span class="badge data">
+        DADOS
+       </span>
+       <span class="project-arrow">
+        Abrir ↗
+       </span>
+      </div>
+      <div class="anp visual">
+       <div class="pipeline">
+        <span>
+         ANP
+        </span>
+        <i>
+         →
+        </i>
+        <span>
+         CSV
+        </span>
+        <i>
+         →
+        </i>
+        <span>
+         PANDAS
+        </span>
+        <i>
+         →
+        </i>
+        <span>
+         SQLITE
+        </span>
+       </div>
+       <div class="fuel-chart">
+        <div>
+         <i>
+         </i>
+         <i>
+         </i>
+         <i>
+         </i>
+         <i>
+         </i>
+         <i>
+         </i>
+         <i>
+         </i>
+        </div>
+        <small>
+         EVOLUÇÃO DO PREÇO MÉDIO · GASOLINA
+        </small>
+       </div>
+      </div>
+      <h3>
+       Análise de Combustíveis ANP
+      </h3>
+      <p>
+       Projeto que pega os dados públicos de preços da ANP e leva até uma análise útil: baixa o CSV, limpa com Pandas, salva em SQLite e consulta os preços de uma cidade. No final mostra média dos combustíveis, postos com gasolina mais barata e a evolução do preço médio. Deixei Curitiba como padrão, mas a cidade pode ser trocada.
+      </p>
+      <div class="stack">
+       Python · Pandas · SQLite · SQL · Matplotlib
+      </div>
+     </a>
+     <a class="card large reveal" data-cat="data" href="https://github.com/pmpimentel/GraficosPandas" target="_blank">
+      <div class="card-top">
+       <span class="badge data">
+        DADOS
+       </span>
+       <span class="project-arrow">
+        Abrir ↗
+       </span>
+      </div>
+      <div class="sales visual">
+       <div class="mini-kpis">
+        <b>
+         Faturamento
+        </b>
+        <b>
+         Pedidos
+        </b>
+        <b>
+         Ticket médio
+        </b>
+       </div>
+       <div class="bars">
+        <i>
+        </i>
+        <i>
+        </i>
+        <i>
+        </i>
+        <i>
+        </i>
+        <i>
+        </i>
+        <i>
+        </i>
+        <i>
+        </i>
+       </div>
+       <small>
+        VENDAS POR MÊS
+       </small>
+      </div>
+      <h3>
+       Análise de Vendas com Pandas
+      </h3>
+      <p>
+       Projeto que fiz para voltar a praticar Pandas. A base passa por limpeza de duplicados e valores ausentes, depois calculo faturamento, pedidos, itens e ticket médio. Também comparo categoria, estado, vendedor e produtos e gero os gráficos com Matplotlib.
+      </p>
+      <div class="stack">
+       Python · Pandas · Matplotlib · CSV
+      </div>
+     </a>
+    </div>
+    <div class="project-grid">
+     <a class="card reveal" data-cat="data" href="https://github.com/pmpimentel/Ranking-Nutricional-C" target="_blank">
+      <div class="card-top">
+       <span class="badge data">
+        DADOS + C
+       </span>
+       <span class="project-arrow">
+        Abrir ↗
+       </span>
+      </div>
+      <div class="nutrition visual">
+       <div class="terminal-title">
+        RANKING NUTRICIONAL
+       </div>
+       <div class="ranking">
+        <span>
+         1
+        </span>
+        <b>
+         Proteína
+        </b>
+        <em>
+         31.7g
+        </em>
+        <span>
+         2
+        </span>
+        <b>
+         Energia
+        </b>
+        <em>
+         240 kcal
+        </em>
+        <span>
+         3
+        </span>
+        <b>
+         Carboidrato
+        </b>
+        <em>
+         18.2g
+        </em>
+       </div>
+      </div>
+      <h3>
+       Ranking Nutricional
+      </h3>
+      <p>
+       Trabalho acadêmico em C que lê uma base CSV com alimentos e deixa consultar categorias e montar rankings por energia, proteína, carboidrato, umidade e relações entre nutrientes. Usei structs, enums, ponteiros e Bubble Sort, mantendo os registros originais na memória.
+      </p>
+      <div class="stack">
+       C11 · CSV · Structs · Ponteiros
+      </div>
+     </a>
+     <a class="card reveal" data-cat="dev" href="https://github.com/pmpimentel/AvaliaX" target="_blank">
+      <div class="card-top">
+       <span class="badge dev">
+        FULL STACK
+       </span>
+       <span class="project-arrow">
+        Abrir ↗
+       </span>
+      </div>
+      <div class="avalia visual">
+       <aside>
+        <b>
+         AX
+        </b>
+        <i>
+         Pacientes
+        </i>
+        <i>
+         Avaliações
+        </i>
+        <i>
+         Relatórios
+        </i>
+       </aside>
+       <div>
+        <small>
+         AVALIAÇÃO
+        </small>
+        <strong>
+         Score 72
+        </strong>
+        <span>
+         TESTE INDICADO
+        </span>
+        <i>
+        </i>
+        <i>
+        </i>
+        <i>
+        </i>
+       </div>
+      </div>
+      <h3>
+       AvaliaX
+      </h3>
+      <p>
+       Sistema de avaliação clínica para apoiar profissionais de saúde em casos relacionados ao X-Frágil. Tem cadastro de pacientes, questionários, score automático baseado em pesos, autenticação, relatórios individuais e gerais e exportação em PDF.
+      </p>
+      <div class="stack">
+       Java 21 · Spring Boot · Security · JWT · MySQL · Flyway
+      </div>
+     </a>
+     <a class="card reveal" data-cat="dev" href="https://github.com/pmpimentel/Maquina-de-Vendas-Python" target="_blank">
+      <div class="card-top">
+       <span class="badge dev">
+        PYTHON
+       </span>
+       <span class="project-arrow">
+        Abrir ↗
+       </span>
+      </div>
+      <div class="vending visual">
+       <div class="screen">
+        SELECIONE O PRODUTO
+       </div>
+       <div class="items">
+        <b>
+         A1
+         <br/>
+         <small>
+          R$ 5
+         </small>
+        </b>
+        <b>
+         A2
+         <br/>
+         <small>
+          R$ 7
+         </small>
+        </b>
+        <b>
+         B1
+         <br/>
+         <small>
+          R$ 4
+         </small>
+        </b>
+        <b>
+         B2
+         <br/>
+         <small>
+          R$ 6
+         </small>
+        </b>
+       </div>
+      </div>
+      <h3>
+       Máquina de Vendas
+      </h3>
+      <p>
+       Simulação de máquina de vendas em Python. Além da compra, controla estoque, calcula o troco de acordo com as moedas e cédulas disponíveis e cancela a operação se não conseguir devolver o valor correto. Também tem uma área administrativa para gerenciar os produtos.
+      </p>
+      <div class="stack">
+       Python · Funções · Listas · Dicionários
+      </div>
+     </a>
+     <a class="card reveal" data-cat="dev" href="https://github.com/pmpimentel/Linkpark" target="_blank">
+      <div class="card-top">
+       <span class="badge dev">
+        JAVA
+       </span>
+       <span class="project-arrow">
+        Abrir ↗
+       </span>
+      </div>
+      <div class="parking visual">
+       <div class="parking-title">
+        LINK PARK
+       </div>
+       <div class="spots">
+        <i>
+         1
+        </i>
+        <i class="busy">
+         X
+        </i>
+        <i>
+         3
+        </i>
+        <i>
+         4
+        </i>
+        <i class="busy">
+         X
+        </i>
+        <i>
+         6
+        </i>
+        <i>
+         7
+        </i>
+        <i>
+         8
+        </i>
+        <i>
+         9
+        </i>
+        <i>
+         10
+        </i>
+       </div>
+      </div>
+      <h3>
+       Link Park
+      </h3>
+      <p>
+       Fiz esse sistema de estacionamento enquanto revisava Java. Ele registra entrada e saída de veículos, controla 10 vagas, lista os carros estacionados e calcula o valor pelo tempo de permanência. Foi uma forma de juntar POO, classes, métodos, ArrayList, loops e condicionais num programa funcionando.
+      </p>
+      <div class="stack">
+       Java · POO · ArrayList
+      </div>
+     </a>
+     <a class="card reveal" data-cat="dev" href="https://github.com/pmpimentel/Microwaze" target="_blank">
+      <div class="card-top">
+       <span class="badge dev">
+        ACADÊMICO
+       </span>
+       <span class="project-arrow">
+        Abrir ↗
+       </span>
+      </div>
+      <div class="micro visual">
+       <svg viewbox="0 0 400 180">
+        <path d="M25 140 C70 45 125 160 180 80 S280 125 370 30">
+        </path>
+        <circle cx="25" cy="140" r="7">
+        </circle>
+        <circle cx="370" cy="30" r="7">
+        </circle>
+       </svg>
+       <span>
+        MICROWAZE
+       </span>
+      </div>
+      <h3>
+       Microwaze
+      </h3>
+      <p>
+       Projeto acadêmico disponível no GitHub. O repositório atualmente mantém o material do projeto compactado e ainda não tem documentação detalhada publicada, então preferi não inventar uma descrição técnica que o próprio repositório não sustenta.
+      </p>
+      <div class="stack">
+       Projeto acadêmico
+      </div>
+     </a>
+    </div>
+   </section>
+   <section class="education section" id="formacao">
+    <div class="section-label">
+     <h2>
+      Formação &amp; idiomas
+     </h2>
+    </div>
+    <div class="edu">
+     <div class="edu-main reveal">
+      <span>
+       ATUAL
+      </span>
+      <h3>
+       Ciência da Computação
+      </h3>
+      <p>
+       PUCPR · Ensino superior cursando
+      </p>
+     </div>
+     <div class="edu-main dark reveal">
+      <span>
+       DUPLA DIPLOMAÇÃO
+      </span>
+      <h3>
+       Texas Tech University
+      </h3>
+      <p>
+       Certificado de conclusão do Ensino Médio · programa remoto
+      </p>
+     </div>
+     <div class="edu-small reveal">
+      <span>
+       ENSINO MÉDIO
+      </span>
+      <h3>
+       Bom Jesus
+      </h3>
+      <p>
+       Ensino médio presencial
+      </p>
+     </div>
+    </div>
+    <div class="langs reveal">
+     <span>
+      IDIOMAS
+     </span>
+     <div>
+      <b>
+       Português
+      </b>
+      <small>
+       Nativo
+      </small>
+     </div>
+     <div>
+      <b>
+       Inglês
+      </b>
+      <small>
+       Fluente
+      </small>
+     </div>
+     <div>
+      <b>
+       Espanhol
+      </b>
+      <small>
+       Básico
+      </small>
+     </div>
+    </div>
+   </section>
+   <section class="contact" id="contato">
+    <span>
+     CONTATO
+    </span>
+    <h2>
+     pedropimo@
+     <br/>
+     hotmail.com
+    </h2>
+    <div>
+     <a href="https://www.linkedin.com/in/pedro-p-115239376/" target="_blank">
+      LinkedIn ↗
+     </a>
+     <a href="https://github.com/pmpimentel" target="_blank">
+      GitHub ↗
+     </a>
+     <a href="./curriculo.pdf" target="_blank">
+      Currículo ↗
+     </a>
+    </div>
+   </section>
+  </main>
+  <footer>
+   <span>
+    Pedro Pimentel Moura
+   </span>
+   <span>
+    Curitiba, PR
+   </span>
+  </footer>
+  <script src="./script.js">
+  </script>
+ </body>
+</html>
